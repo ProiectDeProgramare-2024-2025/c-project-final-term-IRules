@@ -1,0 +1,3 @@
+C:/Users/IRules/CLionProjects/school/programming_project/cmake-build-debug/CMakeFiles/programming_project.dir
+C:/Users/IRules/CLionProjects/school/programming_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/IRules/CLionProjects/school/programming_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
