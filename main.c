@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <conio.h>
 
 
 char questions[100][1000] = {
@@ -28,6 +29,7 @@ const char* getfield(char* line, int num)
 
 void header()
 {
+    system("cls");
     printf("--------------\n");
     printf("1 - Start new game\n");
     printf("2 - Continue last game\n");
@@ -52,8 +54,8 @@ void continue_game() {
     scanf("%c", &a );
 }
 
-
 void leaderboard() {
+    system("cls");
     FILE* stream = fopen("leaderboard.csv", "r");
     char line[1024];
     printf("--------------\n");
